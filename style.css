@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Edu QLD Beginner", cursive;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+    color: rgb(248, 172, 43);
+    margin-top: 50px;
+}
