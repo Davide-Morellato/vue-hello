@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <title>Vue Hello</title>
+    </head>
+    <body style="font-family: Edu QLD Beginner; overflow: hidden;">
+
+        <div id="lion_app" style="text-align: center">
+            <h1 style="font-size: 50px; color: rgb(248, 172, 43); margin-top: 50px;">
+                {{ title.toUpperCase() }}
+            </h1>
+            <img v-bind:src="img" alt="">
+        </div>
+        
+        <audio autoplay loop>
+            <source src="./zazu.mp3" type="audio/mp3">
+        </audio>
+        
+        <script src="./app.js"></script>
+    </body>
+</html>
